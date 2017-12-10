@@ -31,7 +31,7 @@ public class SpringbootBeatlsqlApplication {
         SpringApplication.run(SpringbootBeatlsqlApplication.class, args);
     }
 
-    //配置文件
+    //配置文件看
 
     @Bean(initMethod = "init", name = "beetlConfig")
     public BeetlGroupUtilConfiguration getBeetlGroupUtilConfiguration(){
